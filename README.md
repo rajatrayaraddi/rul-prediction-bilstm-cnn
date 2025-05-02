@@ -4,7 +4,7 @@ This repository contains code and experiments for predicting the Remaining Usefu
 
 ## 📁 Repository Structure
 
-- `lstmcnn.ipynb`: Main notebook containing the preprocessing pipeline, model architecture, training, evaluation, and visualizations.
+- [`lstmcnn.ipynb`]{https://github.com/rajatrayaraddi/rul-prediction-bilstm-cnn/lstmcnn.ipynb}: Main notebook containing the preprocessing pipeline, model architecture, training, evaluation, and visualizations.
 - `hyperparameter_tuning.ipynb`: Contains code for hyperparameter tuning using Keras Tuner.
 - `architecture_experiments.ipynb`: Standalone experiments with alternative architectures (e.g., TCN, standalone LSTM).
 - `weights/`: Pretrained model weights for each subset (FD001, FD002, FD003, FD004).
