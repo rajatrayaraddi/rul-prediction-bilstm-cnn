@@ -4,11 +4,11 @@ This repository contains code and experiments for predicting the Remaining Usefu
 
 ## 📁 Repository Structure
 
-- [`lstmcnn.ipynb`]{https://github.com/rajatrayaraddi/rul-prediction-bilstm-cnn/lstmcnn.ipynb}: Main notebook containing the preprocessing pipeline, model architecture, training, evaluation, and visualizations.
-- `hyperparameter_tuning.ipynb`: Contains code for hyperparameter tuning using Keras Tuner.
-- `architecture_experiments.ipynb`: Standalone experiments with alternative architectures (e.g., TCN, standalone LSTM).
-- `weights/`: Pretrained model weights for each subset (FD001, FD002, FD003, FD004).
-- `keras_tuner_trials.csv`: Results from hyperparameter tuning trials.
+- [`lstmcnn.ipynb`](https://github.com/rajatrayaraddi/rul-prediction-bilstm-cnn/lstmcnn.ipynb): Main notebook containing the preprocessing pipeline, model architecture, training, evaluation, and visualizations.
+- [`hyperparameter_tuning.ipynb`](https://github.com/rajatrayaraddi/rul-prediction-bilstm-cnn/hyperparameter_tuning.ipynb): Contains code for hyperparameter tuning using Keras Tuner.
+- [`architecture_experiments.ipynb`](https://github.com/rajatrayaraddi/rul-prediction-bilstm-cnn/architecture_experiments.ipynb): Standalone experiments with alternative architectures (e.g., TCN, standalone LSTM).
+- [`weights/`](https://github.com/rajatrayaraddi/rul-prediction-bilstm-cnn/weights): Pretrained model weights for each subset (FD001, FD002, FD003, FD004).
+- [`keras_tuner_trials.csv`](https://github.com/rajatrayaraddi/rul-prediction-bilstm-cnn/keras_tuner_trials.csv): Results from hyperparameter tuning trials.
 
 ---
 
@@ -16,7 +16,7 @@ This repository contains code and experiments for predicting the Remaining Usefu
 
 1. **Download the C-MAPSS Dataset**:
    - Place the original C-MAPSS dataset files inside a folder named `CMAPSS`.
-   - Update the `dir_path` variable in the `get_data()` function (Cell 2 of `lstmcnn.ipynb`) with the correct path.
+   - Update the `dir_path` variable in the `get_data()` function (Cell 2 of [`lstmcnn.ipynb`](https://github.com/rajatrayaraddi/rul-prediction-bilstm-cnn/lstmcnn.ipynb)) with the correct path.
 
 2. **Choose Dataset Subset**:
    - Set the desired subset (e.g., `'FD001'`, `'FD002'`, etc.) in the `dataset` variable in Cell 3.
@@ -37,7 +37,7 @@ This repository contains code and experiments for predicting the Remaining Usefu
 
 ## 📊 Visualizations
 
-The following plots are generated in `lstmcnn.ipynb`:
+The following plots are generated in [`lstmcnn.ipynb`](https://github.com/rajatrayaraddi/rul-prediction-bilstm-cnn/lstmcnn.ipynb):
 - True vs. Predicted RUL
 - Prediction Error Distribution
 - Prediction Error by Engine Units
