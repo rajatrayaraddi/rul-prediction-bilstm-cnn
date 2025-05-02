@@ -2,7 +2,7 @@
 
 This repository contains code and experiments for predicting the Remaining Useful Life (RUL) of turbofan engines using a hybrid deep learning model that combines BiLSTM, CNN, and attention mechanisms. The project is based on the NASA C-MAPSS dataset and includes preprocessing, model training, evaluation, and hyperparameter tuning.
 
-## 📁 Repository Structure
+## Repository Structure
 
 - [`lstmcnn.ipynb`](https://github.com/rajatrayaraddi/rul-prediction-bilstm-cnn/blob/main/lstmcnn.ipynb): Main notebook containing the preprocessing pipeline, model architecture, training, evaluation, and visualizations.
 - [`hyperparameter_tuning.ipynb`](https://github.com/rajatrayaraddi/rul-prediction-bilstm-cnn/blob/main/hyperparameter_tuning.ipynb): Contains code for hyperparameter tuning using Keras Tuner.
@@ -12,7 +12,7 @@ This repository contains code and experiments for predicting the Remaining Usefu
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 1. **Download the C-MAPSS Dataset**:
    - Place the original C-MAPSS dataset files inside a folder named `CMAPSS`.
@@ -35,7 +35,7 @@ This repository contains code and experiments for predicting the Remaining Usefu
 
 ---
 
-## 📊 Visualizations
+## Visualizations
 
 The following plots are generated in [`lstmcnn.ipynb`](https://github.com/rajatrayaraddi/rul-prediction-bilstm-cnn/blob/main/lstmcnn.ipynb):
 - True vs. Predicted RUL
@@ -45,13 +45,13 @@ The following plots are generated in [`lstmcnn.ipynb`](https://github.com/rajatr
 
 ---
 
-## 🧠 Notes on Model Saving
+## Notes on Model Saving
 
 Model saving via `model.save()` and reloading with `load_model()` is currently **not supported** due to the use of a custom `PositionalEncodingLayer`. Although the layer includes proper configuration methods, it is not recognized during deserialization. This issue is actively being worked on.
 
 ---
 
-## 🧪 Training Time (Google Colab, T4 GPU)
+## Training Time (Google Colab, T4 GPU)
 
 | Subset | Approx. Training Time |
 |--------|------------------------|
@@ -62,6 +62,6 @@ Model saving via `model.save()` and reloading with `load_model()` is currently *
 
 ---
 
-## 📜 License
+## License
 
 This project is released under the [MIT License](LICENSE).
