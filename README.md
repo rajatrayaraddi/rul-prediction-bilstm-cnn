@@ -12,7 +12,7 @@ This repository contains code and experiments for predicting the Remaining Usefu
 
 ---
 
-## How to Run
+## Getting Started
 
 1. **Download the C-MAPSS Dataset**:
    - Place the original C-MAPSS dataset files inside a folder named `CMAPSS`.
