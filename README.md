@@ -16,7 +16,7 @@ This repository contains code and experiments for predicting the Remaining Usefu
 
 1. **Download the C-MAPSS Dataset**:
    - Place the original C-MAPSS dataset files inside a folder named `CMAPSS`.
-   - Update the `dir_path` variable in the `get_data()` function (Cell 3 of [`lstmcnn.ipynb`](https://github.com/rajatrayaraddi/rul-prediction-bilstm-cnn/blob/main/lstmcnn.ipynb) with the correct path.
+   - Update the `dir_path` variable in the `get_data()` function (Cell 3 of [`lstmcnn.ipynb`](https://github.com/rajatrayaraddi/rul-prediction-bilstm-cnn/blob/main/lstmcnn.ipynb)) with the correct path.
 
 2. **Choose Dataset Subset**:
    - Set the desired subset (e.g., `'FD001'`, `'FD002'`, etc.) in the `dataset` variable in Cell 4.
